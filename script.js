@@ -18,3 +18,13 @@ let somme = tableaux.reduce((acc, val)=>
 )
 
 console.log(somme)
+
+//   #################### AvEC LE TABLEAU MULTIDIMENSIONNEL ############################
+
+let multiDim = [[1, 2], [3, 4], [5, 6]]
+let somMulti = multiDim.reduce((a, b)=>
+            a.concat(b)
+        )
+   let k = somMulti.reduce((c, d)=> c+d, 0)
+console.log(k)
+
